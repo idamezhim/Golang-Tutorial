@@ -9,4 +9,7 @@ func main() {
  	fmt.Println(true && false)
  	fmt.Println(true || true)
  	fmt.Println(true || false)
-	fmt.Println(!true)} 
+	fmt.Println(!true)
+	var x string = "Hello, World"
+ 	fmt.Println(x)
+	} 
