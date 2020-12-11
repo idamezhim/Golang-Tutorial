@@ -30,11 +30,10 @@ func main() {
 	const i int = 345
 	fmt.Println(i + c)
 	fmt.Println(i == b)
-	fmt.Print("Enter a number: ")
-	var input float64
-	fmt.Scanf("%f", &input)
-	output := input * 2
+	//This is a Program to convert Celsuis to Fahre heit
+	fmt.Print("Enter the Fahrenheit Degree: ")
+	var f float64
+	fmt.Scanf("%f", &f)
+	output :=  (f - 32) * 5/9
 	fmt.Println(output)
-	o := 5;
-	o += 1
 } 
