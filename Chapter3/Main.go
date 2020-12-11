@@ -35,6 +35,6 @@ func main() {
 	fmt.Scanf("%f", &input)
 	output := input * 2
 	fmt.Println(output)
-	e := "golang"
-	fmt.Println(e)
+	o := 5;
+	o += 1
 } 
