@@ -2,14 +2,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(len("Hello, World"))
-    fmt.Println("Hello, World"[1])
-	fmt.Println("Hello, " + "World")
-	fmt.Println(true)
- 	fmt.Println(true && false)
- 	fmt.Println(true)
- 	fmt.Println(true || false)
-	fmt.Println(!true)
 	var x string
  	x = "first"
  	fmt.Println(x)
@@ -29,5 +21,20 @@ func main() {
 	fmt.Println(x == t)
 	g := 55
 	fmt.Println(g)
-
-	} 
+	var(
+		a = 2
+		b = 3
+		c = 4
+	)
+	fmt.Println(a + b + c)
+	const i int = 345
+	fmt.Println(i + c)
+	fmt.Println(i == b)
+	fmt.Print("Enter a number: ")
+	var input float64
+	fmt.Scanf("%f", &input)
+	output := input * 2
+	fmt.Println(output)
+	e := "golang"
+	fmt.Println(e)
+} 
