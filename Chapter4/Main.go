@@ -12,4 +12,5 @@ func main() {
 		fmt.Println(i, "divisible by 4") 
 	   }
 	}
+	
 }
