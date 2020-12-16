@@ -7,6 +7,6 @@ func main(){
 		if  i % 3 == 0 {
 			fmt.Println( i, "divisible by 3")
 		 } else{
-			 fmt.Println(i, "Not divisible by 3")}
+			 fmt.Println(i)}
 							}
 			}
