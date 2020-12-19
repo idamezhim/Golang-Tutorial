@@ -10,9 +10,8 @@ func main() {
 	x[3] = 82
 	x[4] = 83
 	var total float64 = 0
-for i, value := range x {
+for _, value := range x {
  total += value
 }
 fmt.Println(total / float64(len(x)))
-
    }
