@@ -1,5 +1,7 @@
 package main
+
 import "fmt"
+
 func main() {
 // declare variables
 var str string
@@ -10,20 +12,20 @@ str = "Hello World"
 n = 10
 m = 50
 mn = 2.45
-fmt.Println("value of str= ",str)
-fmt.Println("value of n= ",n)
-fmt.Println("value of m= ",m)
-fmt.Println("value of mn= ",mn)
+fmt.Println(str)
+fmt.Println(n)
+fmt.Println(m)
+fmt.Println(mn)
 // declare and assign values to variables
 var city string = "London"
 var x int = 100
-fmt.Println("value of city= ",city)
-fmt.Println("value of x= ",x)
+fmt.Println(city)
+fmt.Println(x)
 // declare variable with defining its type
 country := "DE"
 val := 15
-fmt.Println("value of country= ",country)
-fmt.Println("value of val= ",val)
+fmt.Println(country)
+fmt.Println(val)
 // define multiple variables
 var (
 name string
