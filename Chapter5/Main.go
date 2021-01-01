@@ -10,8 +10,8 @@ func main() {
 	x[3] = 82
 	x[4] = 83
 	var total float64 = 0
-for _, value := range x {
- total += value
+for i := 0; i < len(x); i++ {
+ total += x[i]
 }
-fmt.Println(total / float64(len(x)))
+fmt.Println(total / len(x))
    }
